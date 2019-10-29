@@ -1,5 +1,4 @@
-# Cypress-with-Jenkins-Pipelines
-An example Jenkins pipeline that runs Cypress tests.
+# Cypress + Jenkins
 
 ## Summary
 This pipeline demonstrates a way of using a declarative Jenkins pipeline to both start a bare-bones npm-based application, and then run [Cypress](https://github.com/cypress-io/cypress) tests against the application. It assumes that you have the required dependencies wrapped up in containers -- I recommend starting with one of the [Cypress docker images](https://github.com/cypress-io/cypress-docker-images) to do so. 
